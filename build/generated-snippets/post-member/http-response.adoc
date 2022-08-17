@@ -1,0 +1,18 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Content-Length: 187
+
+{
+  "data" : {
+    "memberId" : 1,
+    "name" : "김코딩",
+    "password" : "s4goodbye!",
+    "sex" : "m",
+    "company_name" : "프로젝트스테이츠",
+    "company_type" : "005",
+    "company_location" : "001"
+  }
+}
+----

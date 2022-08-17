@@ -1,0 +1,11 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/v1/members' -i -X POST \
+    -H 'Content-Type: application/json;charset=UTF-8' \
+    -H 'Accept: application/json' \
+    -d '{
+  "name" : "김코딩",
+  "password" : "s4goodbye!"
+  "company_name" : "프로젝트스테이츠"
+}'
+----
